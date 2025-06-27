@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header id="Header">
+
+        <div class="header2">
+        <ul class="menuHorizontal">
+            <h2><a href="inicio.html"> Salón Comunal Bellavista</a></h2>
+            <li ><a href="Nosostros.html">Nosotros</a></li>
+            <li ><a href="Novedades.html">Novedades</a></li>
+            <li ><a href="#">Servicios</a>
+                <ul class="menuVertical">
+                    <li ><a href="Servicios_Registro.html">Registro JAC</a></li>
+                    <li ><a href="Servicios_AlquilerSalon.html">Alquiler de salón</a></li>
+                    <li ><a href="Servicios.PQRS.html">PQRS</a></li>
+                </ul>
+            </li>
+            <li ><a href="Contacto.html">Contacto</a></li>
+            <li class="btn">
+                <button class="btnLogin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg>
+                LogIn
+                </button>
+            </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+            </svg>
+        </span>
+
+
+        <div class="form-box login">
+            <h2>Bienvenido LogIn del sistema</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="imail" required>
+                    <label >Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="Password" required>
+                    <label >Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <a href="#">¿Olvido su contraseña?</a>
+                </div>
+                <button type="submit" class="btn-login">LogIn</button>
+                <div class="login-register">
+                    <p>Unirme a la comunidad <a href="Servicios_Registro.html" class="registerlink"> Registrarse </a></p>
+                </div>
+            </form>
+        </div>  
+        
+    </div>
+
+
+    <div class="register">
+        <h2>Alquiler de salon</h2>
+        <form action="#">
+            <div class="input-group">   
+            <div class="input-box2">
+                <label >Nombre</label>
+                <input type="text" required>
+                
+            </div>
+            <div class="input-box2">
+                <label >Apellido</label>
+                <input type="text" required>
+                
+            </div>
+            <div class="input-box2">
+                <label >Numero de cedula</label>
+                <input type="number" required>
+               
+            </div>
+            <div class="input-box2">
+                <label >Seleccione el dia</label>
+                <input type="number" required>
+               
+            </div>
+            <div class="input-box2">
+                <label >Seleccione la hora</label>
+                <input type="number" required>
+               
+            </div>
+                    
+            
+
+            <div class="input-box2">
+                <label >Subir documento</label>
+                <input type="text" required>
+                
+            </div>
+
+            <div class="input-box2">
+                <label >Descripcion</label>
+                <input type="text" required>
+                
+            </div>
+
+            <button type="submit" class="btn-login2">Enviar</button>
+            
+            
+            
+        </form>
+    </div>
+   
+
+    
+    
+    
+
+   
+   
+
+
+
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
